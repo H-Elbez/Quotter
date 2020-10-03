@@ -21,7 +21,7 @@ The app is using two Api :
 - Picture Api ( [MediaWiki](https://en.wikipedia.org/w/api.php) )
 
 the used libraries in this app are :
-- [Http]([https://link](https://pub.dev/packages/http)) 
+- [Http](https://pub.dev/packages/http) 
 - [Clipboard_manager](https://pub.dev/packages/clipboard_manager)
 - [Toast](https://pub.dev/packages/toast)
 - [Flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons)
