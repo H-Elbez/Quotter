@@ -36,5 +36,7 @@ WikiMedia Api performance.
 
 The app is developed by [Hammouda Elbez](https://www.linkedin.com/in/elbez-hammouda/)
 
-
 Elbez.hammouda@gmail.com
+
+# License
+This repository is licensed under the [GNU GPL v3.0](LICENSE)
