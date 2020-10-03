@@ -5,11 +5,13 @@ import 'package:http/http.dart' as http;
 import 'package:clipboard_manager/clipboard_manager.dart';
 import 'package:toast/toast.dart';
 
+// Main start of the app
 void main() {
   SystemChrome.setEnabledSystemUIOverlays([]);
   runApp(MyApp());
 }
 
+// setting App name and home
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -29,6 +31,7 @@ class _MainState extends State<MainPage> {
   String quote, owner, imglink;
   bool working = false;
   final grey = Colors.blueGrey[800];
+
   @override
   void initState() {
     super.initState();
@@ -38,6 +41,7 @@ class _MainState extends State<MainPage> {
     getQuote();
   }
 
+  // get a random Quote from the API
   getQuote() async {
     try {
       setState(() {
@@ -62,6 +66,7 @@ class _MainState extends State<MainPage> {
     }
   }
 
+  // if it is offline, show a fixed Quote
   offline() {
     setState(() {
       owner = "Janet Fitch";
@@ -71,12 +76,14 @@ class _MainState extends State<MainPage> {
     });
   }
 
+  // When copy button clicked, copy the quote to clipboard
   copyQuote() {
     ClipboardManager.copyToClipBoard(quote + "\n- " + owner).then((result) {
       Toast.show("Quote Copied", context, duration: Toast.LENGTH_SHORT);
     });
   }
 
+  // get image of the quote author, using Wikipedia Api
   getImg(String name) async {
     var image = await http.get(
         "https://en.wikipedia.org/w/api.php?action=query&generator=search&gsrlimit=1&prop=pageimages%7Cextracts&pithumbsize=400&gsrsearch=" +
@@ -95,6 +102,7 @@ class _MainState extends State<MainPage> {
     });
   }
 
+  // Choose to show the loaded image from the Api or the offline one
   Widget drawImg() {
     if (imglink.isEmpty) {
       return Image.asset("img/offline.jpg", fit: BoxFit.cover);
@@ -103,6 +111,7 @@ class _MainState extends State<MainPage> {
     }
   }
 
+  // Main build function
   @override
   Widget build(BuildContext context) {
     return Scaffold(
