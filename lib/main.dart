@@ -1,3 +1,4 @@
+import 'package:Quotter/splashscreen.dart';
 import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:flutter/services.dart';
@@ -16,8 +17,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Quotter',
-      home: MainPage(),
+      home: SplashScreen(),
     );
   }
 }
