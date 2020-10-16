@@ -11,7 +11,7 @@ to copy the quote to share it with all your friends.
 |---|---|---|---|---|
 | ![S1](img/S1.png) | ![S1](img/S2.png) | ![S1](img/S3.png) | ![S1](img/S5.png) | ![S1](img/S6.png) |
 | ![S1](img/S7.png) | ![S1](img/S8.png) | ![S1](img/S9.png) | ![S1](img/S10.png) | ![S1](img/S11.png) |
-| ![S1](img/s12.jpg) | ![S1](img/S13.gif) 
+| ![S1](img/s12.jpg) | ![S1](img/s13.gif) 
 
 
 |   |   |   |   |   |
