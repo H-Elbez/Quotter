@@ -1,38 +1,41 @@
 name: Quotter
 description: Flutter Quotes App developed by Elbez Hammouda.
 
+publish_to: "none"
+
 version: 1.0.3+3
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.0
-  http: ^0.12.2 
   clipboard_manager: ^0.0.4
-  toast: ^0.1.5
+  cupertino_icons: ^1.0.0
   flutter_launcher_icons: ^0.8.1
+  http: ^0.12.2
+  path_provider: ^1.6.18
+  screenshot: ^0.2.0
+  share: ^0.6.5+2
+  toast: ^0.1.5
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-
 flutter:
-
   uses-material-design: true
 
   assets:
-     - img/offline.jpg
-  
+    - img/offline.jpg
+
   fonts:
     - family: Ic
       fonts:
-        - asset: assets/fonts/IcoMoon.ttf 
-  
+        - asset: assets/fonts/IcoMoon.ttf
+
 flutter_icons:
-  android: "launcher_icon" 
+  android: "launcher_icon"
   ios: true
   image_path: "img/icon.png"
