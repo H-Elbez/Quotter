@@ -90,6 +90,7 @@ class _MainState extends State<MainPage> {
     });
   }
 
+  // When share button clicked, share a text and screnshot of the quote
   shareQuote() async {
     final directory = (await getApplicationDocumentsDirectory()).path; //from path_provide package
     String path = '$directory/screenshots${DateTime.now().toIso8601String()}.png';

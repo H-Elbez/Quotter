@@ -9,8 +9,8 @@ to copy the quote to share it with all your friends.
 
 |   |   |   |   |   |
 |---|---|---|---|---|
-| ![S1](img/S1.png) | ![S1](img/S2.png) | ![S1](img/S3.png) | ![S1](img/S5.png) | ![S1](img/S6.png) |
-| ![S1](img/S7.png) | ![S1](img/S8.png) | ![S1](img/S9.png) | ![S1](img/S10.png) | ![S1](img/S11.png) |
+| ![S1](img/S1.jpg) | ![S1](img/S2.jpg) | ![S1](img/S3.jpg) | ![S1](img/S5.jpg) | ![S1](img/S6.jpg) |
+| ![S1](img/S7.jpg) | ![S1](img/S8.jpg) | ![S1](img/S9.jpg) | ![S1](img/S10.jpg) | ![S1](img/S11.jpg) |
 |   |   |   |   |   |
 
 
@@ -25,6 +25,8 @@ the used libraries in this app are :
 - [Clipboard_manager](https://pub.dev/packages/clipboard_manager)
 - [Toast](https://pub.dev/packages/toast)
 - [Flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons)
+- [Screenshot](https://pub.dev/packages/screenshot)
+- [Share](https://pub.dev/packages/share)
 
 [Playstore Link](https://play.google.com/store/apps/details?id=com.hammouda.Quotter).
 
